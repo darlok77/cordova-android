@@ -34,12 +34,12 @@ We will now create the web application with Node.js and Cordova.
 
 * Install the last version of `Node@4.2.6` and `npm@2.14.12`.
 * Create a repository wtih the name `app-mobile-android`.
-* Enter in the repository and execute the CLI `npm init` on your terminal and follow step by step.
+* Enter in the repository and execute the CLI : `npm init` on your terminal and follow step by step.
 
 #### Create a project with Cordova :
 
-* Install `Cordova` in global of your computer with CLI `npm i cordova -g`.
-* Create app Cordova : CLI `cordova create lib com.app.lib appFonderie`.
+* Install `Cordova` in global of your computer with CLI : `npm i cordova -g`.
+* Create app Cordova CLI : `cordova create lib com.app.lib appFonderie`.
 * Add for the next step a project with Androïd : `cordova platform add android` the project will fit automaticaly and dowload all dependences.
 * Open the repositroy root with a editor Ouvrez le repertoire racine avec un IDE, you should have in ./www with ./css ./img et ./js.
 * After of run your application you should build your application with Cordova. CLI : `cordova build android` the `.apk` is generated.
